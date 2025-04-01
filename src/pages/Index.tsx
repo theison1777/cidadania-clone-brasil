@@ -3,6 +3,8 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import REPISLogo from '@/components/REPISLogo';
+import { Button } from '@/components/ui/button';
+import { LogIn, HelpCircle } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -30,6 +32,17 @@ const Index = () => {
               <p>
                 O sistema atende à Portaria Interministerial MTE/MF nº 2, de 11 de outubro de 2023, dos ministérios da Fazenda e do Trabalho e Emprego, que regulamenta o art. 121 e parágrafo único do Ato das Disposições Constitucionais Transitórias (ADCT), acrescido à Constituição Federal (CF) por meio da Emenda Constitucional (EC) nº 126, de 21 de dezembro de 2022.
               </p>
+            </div>
+            
+            <div className="mt-8 flex flex-col md:flex-row justify-center gap-4 w-full max-w-lg">
+              <Button className="bg-brazil-blue hover:bg-brazil-blue/90 text-white px-8 py-6 rounded-lg text-lg">
+                <LogIn className="mr-2" size={20} />
+                Entrar
+              </Button>
+              <Button className="bg-brazil-blue hover:bg-brazil-blue/90 text-white px-8 py-6 rounded-lg text-lg">
+                <HelpCircle className="mr-2" size={20} />
+                Perguntas Frequentes
+              </Button>
             </div>
           </div>
         </div>
