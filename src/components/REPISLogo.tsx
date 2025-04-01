@@ -10,7 +10,7 @@ const REPISLogo = () => {
         className="w-auto h-40 mb-2"
       />
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-brazil-blue">REPIS</h1>
+        <h1 className="text-4xl font-bold text-brazil-blue"></h1>
         <p className="text-sm text-gray-700">Sistema de Ressarcimento PIS/PASEP</p>
       </div>
     </div>
