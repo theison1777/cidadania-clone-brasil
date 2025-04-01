@@ -35,12 +35,12 @@ const Index = () => {
             </div>
             
             <div className="mt-8 flex flex-col md:flex-row justify-center gap-4 w-full max-w-lg">
-              <Button className="bg-brazil-blue hover:bg-brazil-blue/90 text-white px-8 py-6 rounded-lg text-lg">
-                <LogIn className="mr-2" size={20} />
+              <Button className="bg-[#1449a3] text-white font-medium py-2 px-6 rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center">
+                <LogIn className="mr-2" size={16} />
                 Entrar
               </Button>
-              <Button className="bg-brazil-blue hover:bg-brazil-blue/90 text-white px-8 py-6 rounded-lg text-lg">
-                <HelpCircle className="mr-2" size={20} />
+              <Button className="bg-[#1449a3] text-white font-medium py-2 px-6 rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center">
+                <HelpCircle className="mr-2" size={16} />
                 Perguntas Frequentes
               </Button>
             </div>
