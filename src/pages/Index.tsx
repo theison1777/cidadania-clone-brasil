@@ -13,8 +13,8 @@ const Index = () => {
       <main className="flex-grow bg-white">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col items-start mb-6">
-            <p className="text-sm text-gray-600 mb-1">
-              <span className="font-medium">Página</span> - Sistema de Ressarcimento PIS/PASEP
+            <p className="text-sm mb-1">
+              <span className="font-medium">Página</span> - <span className="text-blue-500 hover:text-blue-700 cursor-pointer">Sistema de Ressarcimento PIS/PASEP</span>
             </p>
             <h1 className="text-2xl md:text-3xl font-medium text-gray-800">
               Bem-vindo ao REPIS Cidadão
