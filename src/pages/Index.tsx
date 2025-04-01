@@ -13,7 +13,19 @@ const Index = () => {
       <main className="flex-grow bg-white">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col items-start mb-6">
-            <p className="text-sm mb-1 text-blue-500 hover:text-blue-700 cursor-pointer">
+            <p className="text-sm mb-1 text-blue-500 hover:text-blue-700 cursor-pointer flex items-center">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="mr-1"
+              >
+                <rect y="5" width="24" height="3" rx="1" fill="#0C77BD" />
+                <rect y="11" width="24" height="3" rx="1" fill="#0C77BD" />
+                <rect y="17" width="24" height="3" rx="1" fill="#0C77BD" />
+              </svg>
               REPIS - Sistema de Ressarcimento PIS/PASEP
             </p>
             <h1 className="text-2xl md:text-3xl font-medium text-gray-800">
