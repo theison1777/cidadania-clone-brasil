@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Brazil government colors
+				'brazil-blue': '#0C326F',
+				'brazil-green': '#229954',
+				'brazil-yellow': '#F1C40F',
+				'brazil-gray': '#F5F5F5',
+				'brazil-dark': '#2C3E50',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
