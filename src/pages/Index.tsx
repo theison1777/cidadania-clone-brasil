@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -52,7 +51,7 @@ const Index = () => {
                 onClick={() => window.location.href = "https://govbr-login-portal.lovable.app"}
               >
                 <User className="mr-2" size={16} />
-                Entrar
+                Entrar com .Gov
               </Button>
             </div>
           </div>
