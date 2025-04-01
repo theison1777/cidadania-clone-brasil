@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import REPISLogo from '@/components/REPISLogo';
 import { Button } from '@/components/ui/button';
-import { LogIn, HelpCircle } from 'lucide-react';
+import { LogIn } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -53,10 +53,6 @@ const Index = () => {
               >
                 <LogIn className="mr-2" size={16} />
                 Entrar
-              </Button>
-              <Button className="bg-[#1449a3] text-white font-medium py-2 px-6 rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center">
-                <HelpCircle className="mr-2" size={16} />
-                Perguntas Frequentes
               </Button>
             </div>
           </div>
