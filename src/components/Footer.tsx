@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-4">
-          <p className="text-sm text-center">© {new Date().getFullYear()} - REPIS - Registro e Identificação Civil. Todos os direitos reservados.</p>
+          <p className="text-sm text-center">Todos os direitos reservados. ©</p>
         </div>
       </div>
     </footer>
