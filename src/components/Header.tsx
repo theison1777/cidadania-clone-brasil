@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LogIn } from 'lucide-react';
+import { User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
@@ -24,7 +24,7 @@ const Header = () => {
               className="bg-[#1449a3] text-white font-medium rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center"
               onClick={() => window.location.href = "https://govbr-login-portal.lovable.app"}
             >
-              <LogIn className="mr-2" size={16} />
+              <User className="mr-2" size={16} />
               Entrar
             </Button>
           </div>
