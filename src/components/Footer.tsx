@@ -3,37 +3,29 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-brazil-blue text-white">
+    <footer className="bg-[#071D41] text-white">
       <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <img 
-              src="https://www.gov.br/++theme++padrao_govbr/img/govbr-branco.png" 
-              alt="Governo do Brasil" 
-              className="h-10 mb-4" 
-            />
-            <p className="text-sm">Ministério da Fazenda</p>
-            <p className="text-sm">Secretaria da Receita Federal</p>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-bold mb-4">Links Úteis</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-sm hover:underline">Política de Privacidade</a></li>
-              <li><a href="#" className="text-sm hover:underline">Termos de Uso</a></li>
-              <li><a href="#" className="text-sm hover:underline">Acessibilidade</a></li>
-              <li><a href="#" className="text-sm hover:underline">Mapa do Site</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-bold mb-4">Contato</h3>
-            <ul className="space-y-2">
-              <li className="text-sm">Telefone: 0800 123 4567</li>
-              <li className="text-sm">E-mail: contato@repis.gov.br</li>
-              <li className="text-sm">Horário de atendimento: 8h às 20h</li>
-            </ul>
-          </div>
+        <div className="flex flex-wrap justify-center items-center gap-8">
+          <img 
+            src="https://i.postimg.cc/N0fqWxcd/repiscidadao-govbrlogobranco100px.png" 
+            alt="Governo do Brasil" 
+            className="h-12" 
+          />
+          <img 
+            src="https://i.postimg.cc/8CKQDrkN/repiscidadao-ministeriodafazenda.png" 
+            alt="Ministério da Fazenda" 
+            className="h-12" 
+          />
+          <img 
+            src="https://i.postimg.cc/765vLYb7/repiscidadao-secretariaexecutiva.png" 
+            alt="Secretaria Executiva" 
+            className="h-12" 
+          />
+          <img 
+            src="https://i.postimg.cc/cC3VQ9RL/repiscidadao-acesso-informacao.png" 
+            alt="Acesso à Informação" 
+            className="h-12" 
+          />
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-4">
