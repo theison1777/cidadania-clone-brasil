@@ -138,7 +138,7 @@ const LoginForm = () => {
                       />
                     </div>
                     
-                    <Alert variant="outline" className="bg-yellow-50 border-brazil-yellow text-gray-700">
+                    <Alert className="bg-yellow-50 border-brazil-yellow text-gray-700">
                       <AlertCircle className="h-4 w-4 text-brazil-yellow" />
                       <AlertDescription>
                         Use as mesmas credenciais da sua conta gov.br

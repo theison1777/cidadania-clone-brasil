@@ -2,28 +2,27 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import HeroBanner from '@/components/HeroBanner';
-import ServiceCards from '@/components/ServiceCards';
-import LoginForm from '@/components/LoginForm';
-import InfoSection from '@/components/InfoSection';
-import NewsSection from '@/components/NewsSection';
+import REPISLogo from '@/components/REPISLogo';
 
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow">
-        <HeroBanner />
-        <ServiceCards />
-        <div className="bg-white py-12">
-          <div className="container mx-auto px-4 md:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <LoginForm />
-              <InfoSection />
-            </div>
+      <main className="flex-grow bg-white">
+        <div className="container mx-auto px-4 py-8">
+          <div className="flex flex-col items-start mb-6">
+            <p className="text-sm text-gray-600 mb-1">
+              <span className="font-medium">Página</span> - Sistema de Ressarcimento PIS/PASEP
+            </p>
+            <h1 className="text-2xl md:text-3xl font-medium text-gray-800">
+              Bem-vindo ao REPIS Cidadão
+            </h1>
+          </div>
+          
+          <div className="mt-8 flex justify-center">
+            <REPISLogo />
           </div>
         </div>
-        <NewsSection />
       </main>
       <Footer />
     </div>

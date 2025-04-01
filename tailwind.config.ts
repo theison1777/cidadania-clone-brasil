@@ -63,10 +63,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Brazil government colors
-				'brazil-blue': '#0C326F',
-				'brazil-green': '#229954',
-				'brazil-yellow': '#F1C40F',
+				// Brazil government colors - updated to match the image more closely
+				'brazil-blue': '#0C77BD',
+				'brazil-green': '#00A651',
+				'brazil-yellow': '#FDC016',
 				'brazil-gray': '#F5F5F5',
 				'brazil-dark': '#2C3E50',
 			},
