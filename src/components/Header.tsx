@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Menu, LogIn } from 'lucide-react';
+import { LogIn } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
@@ -19,47 +19,13 @@ const Header = () => {
           </div>
 
           {/* Login Button */}
-          <div className="hidden lg:block">
+          <div>
             <Button 
               className="bg-[#1449a3] text-white font-medium rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center"
             >
               <LogIn className="mr-2" size={16} />
               Entrar
             </Button>
-          </div>
-
-          {/* Mobile Navigation */}
-          <div className="lg:hidden">
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
-                  <Menu size={20} />
-                  <span className="sr-only">Abrir menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right">
-                <nav className="flex flex-col gap-4 mt-8">
-                  <a 
-                    href="/" 
-                    className="text-lg font-medium text-gray-700 hover:text-brazil-blue"
-                  >
-                    Início
-                  </a>
-                  <a 
-                    href="/servicos" 
-                    className="text-lg font-medium text-gray-700 hover:text-brazil-blue"
-                  >
-                    Serviços
-                  </a>
-                  <Button 
-                    className="bg-[#1449a3] text-white font-medium rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center mt-2"
-                  >
-                    <LogIn className="mr-2" size={16} />
-                    Entrar
-                  </Button>
-                </nav>
-              </SheetContent>
-            </Sheet>
           </div>
         </div>
       </div>
