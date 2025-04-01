@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Menu, ChevronDown } from 'lucide-react';
+import { Menu, LogIn } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
@@ -16,6 +16,16 @@ const Header = () => {
               alt="Governo do Brasil" 
               className="h-6" 
             />
+          </div>
+
+          {/* Login Button */}
+          <div className="hidden lg:block">
+            <Button 
+              className="bg-[#1449a3] text-white font-medium rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center"
+            >
+              <LogIn className="mr-2" size={16} />
+              Entrar
+            </Button>
           </div>
 
           {/* Mobile Navigation */}
@@ -41,6 +51,12 @@ const Header = () => {
                   >
                     Serviços
                   </a>
+                  <Button 
+                    className="bg-[#1449a3] text-white font-medium rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center mt-2"
+                  >
+                    <LogIn className="mr-2" size={16} />
+                    Entrar
+                  </Button>
                 </nav>
               </SheetContent>
             </Sheet>
