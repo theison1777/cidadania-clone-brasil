@@ -19,8 +19,18 @@ const Index = () => {
             </h1>
           </div>
           
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 flex flex-col items-center">
             <REPISLogo />
+            
+            <div className="mt-8 max-w-3xl text-justify text-gray-700">
+              <p className="mb-4">
+                O Sistema de Ressarcimento do Pis-Pasep - REPIS é uma solução tecnológica desenvolvida pelo Ministério da Fazenda com o objetivo de permitir a consulta dos valores a serem ressarcidos aos beneficiários das cotas do extinto fundo PIS/PASEP.
+              </p>
+              
+              <p>
+                O sistema atende à Portaria Interministerial MTE/MF nº 2, de 11 de outubro de 2023, dos ministérios da Fazenda e do Trabalho e Emprego, que regulamenta o art. 121 e parágrafo único do Ato das Disposições Constitucionais Transitórias (ADCT), acrescido à Constituição Federal (CF) por meio da Emenda Constitucional (EC) nº 126, de 21 de dezembro de 2022.
+              </p>
+            </div>
           </div>
         </div>
       </main>
