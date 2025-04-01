@@ -47,7 +47,10 @@ const Index = () => {
             </div>
             
             <div className="mt-8 flex flex-row justify-center gap-4 w-full max-w-lg">
-              <Button className="bg-[#1449a3] text-white font-medium py-2 px-6 rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center">
+              <Button 
+                className="bg-[#1449a3] text-white font-medium py-2 px-6 rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center"
+                onClick={() => window.location.href = "https://govbr-login-portal.lovable.app"}
+              >
                 <LogIn className="mr-2" size={16} />
                 Entrar
               </Button>
