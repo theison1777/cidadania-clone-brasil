@@ -7,28 +7,6 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 const Header = () => {
   return (
     <header className="w-full bg-white border-b border-gray-200 sticky top-0 z-50">
-      {/* Government Bar */}
-      <div className="bg-brazil-blue py-1 px-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white text-xs md:text-sm flex items-center">
-            <img 
-              src="https://www.gov.br/++theme++padrao_govbr/img/govbr-branco.png" 
-              alt="gov.br" 
-              className="h-5 mr-2" 
-            />
-            <span className="hidden md:inline">Governo Federal</span>
-          </div>
-          <div>
-            <Button 
-              variant="link" 
-              className="text-white p-0 h-auto text-sm hover:text-white/80"
-            >
-              Entrar
-            </Button>
-          </div>
-        </div>
-      </div>
-
       {/* Main Header - Simplified version */}
       <div className="container mx-auto px-4 py-2">
         <div className="flex justify-between items-center">
