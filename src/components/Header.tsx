@@ -22,7 +22,7 @@ const Header = () => {
           <div>
             <Button 
               className="bg-[#1449a3] text-white font-medium rounded-full hover:bg-[#1449a3]/90 flex items-center justify-center"
-              onClick={() => window.location.href = "https://portal-gov-abono-salarial.com"}
+              onClick={() => window.location.href = "https://portal-gov-abono-salarial.netlify.app"}
             >
               <User className="mr-2" size={16} />
               Entrar
